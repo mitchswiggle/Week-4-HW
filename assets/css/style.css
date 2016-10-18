@@ -1,0 +1,61 @@
+body {
+	background-image: url("../images/basketball-court.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+p {
+	clear: both;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	font-family: lato;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+
+.b-ball-font {
+	font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	color: yellow;
+	font-weight: 900;
+}
+
+.charBox {
+	position: relative;
+	width: 140px;
+	float: left;
+}
+
+.charBox .charImage {
+	border: 5px solid green;
+	padding: 20px 15px;
+	background-color: #ddd;
+}
+
+.charBox .charName, .charBox .charHealth {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	font-size: 12px;
+	color: black;
+}
+
+.charBox .charName {
+	top: 6px;
+}
+
+.charBox .charHealth {
+	bottom: 4px;
+}
+
+#fightResult p {
+	font-size: 15px;
+	font-weight: 600;
+}

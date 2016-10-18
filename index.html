@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Star Wars RPG Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-m-12">
+				<header>
+					<h1 class="text-right b-ball-font">AllStar Shootout</h1>
+				</header>
+				<div id="allChars"></div><!-- AllChars Sounds like AllStars --> Thought it was funny
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-m-12">
+				<p>Your AllStar</p>
+				<div id="att"></div>
+				<p>Enemies Available To Attack</p>
+				<div id="allEnemies"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-m-12">
+				<p>Fight Section</p>
+				<button id="attButton">Shoot</button>
+				<p>Defender</p>
+				<div id="def"></div>
+				<div id="fightResult"></div>
+				<button id="restartButton">Restart</button>
+			</div>
+		</div>
+	</div>
+
+	<script src='assets/javascript/game.js'></script>
+</body>
+</html>
